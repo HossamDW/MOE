@@ -3,3 +3,11 @@
 ################################################################################
 
 /.vs
+/MOEServices/MOEServices/bin/Debug/netcoreapp3.1
+/MOEServices/MOEServices/obj
+/MOEServices/MOEServices.Core/bin/Debug/netcoreapp3.1
+/MOEServices/MOEServices.Core/obj
+/MOEServices/MOEServices.Data/bin/Debug/netcoreapp3.1
+/MOEServices/MOEServices.Data/obj
+/MOEServices/MOEServices.Infrastructure/bin/Debug/netcoreapp3.1
+/MOEServices/MOEServices.Infrastructure/obj
