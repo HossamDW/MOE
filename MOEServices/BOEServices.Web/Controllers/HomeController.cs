@@ -51,6 +51,13 @@ namespace BOEServices.Web.Controllers
 			return RedirectToAction("Index", "Home");
 		}
 
+		[HttpGet]
+		public IActionResult Admin()
+		{
+			var result = _attestationService.GetAll();
+			return View("Admin", result);
+		}
+
 		private string GetUniqueFileName(string fileName)
 		{
 			fileName = Path.GetFileName(fileName);
