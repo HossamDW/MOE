@@ -11,3 +11,5 @@
 /MOEServices/MOEServices.Data/obj
 /MOEServices/MOEServices.Infrastructure/bin/Debug/netcoreapp3.1
 /MOEServices/MOEServices.Infrastructure/obj
+/MOEServices/MOEServices.Infrastructure/obj
+/MOEServices/.vs/MOEServices/v16
