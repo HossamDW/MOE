@@ -8,7 +8,8 @@ using System.Text;
 namespace MOEServices.Core.Interfaces.Services
 {
     public interface ICertificateAttestationService :
-        ICreateForAsync<CertificateAttestation>
+        ICreateForAsync<CertificateAttestation>, 
+		IGetAllFor<CertificateAttestation>
     {
 
     }

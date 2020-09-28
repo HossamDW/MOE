@@ -1,11 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
+using MOEServices.Infrastructure.Data;
 using System;
 using System.Collections.Generic;
 using System.Text;
-using Task.Infrastructure.Data;
 
-namespace Task.Infrastructure
+namespace MOEServices.Infrastructure
 {
     public static class InfrastructureStartup
     {

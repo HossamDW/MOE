@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Task.Infrastructure.Data
+namespace MOEServices.Infrastructure.Data
 {
     public class MoeDBContext : DbContext
     {

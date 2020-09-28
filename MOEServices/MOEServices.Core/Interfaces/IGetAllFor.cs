@@ -7,6 +7,6 @@ namespace MOEServices.Core.Interfaces
 {
     public interface IGetAllFor<TResult> where TResult : class
     {
-        IQueryable<TResult> GetAll();
+        IList<TResult> GetAll();
     }
 }

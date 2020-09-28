@@ -1,13 +1,14 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using MOEServices.Core.Entities;
+using MOEServices.Core.Interfaces;
 using MOEServices.Core.Interfaces.Services;
 using MOEServices.Core.Result;
+using MOEServices.Infrastructure.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Task.Infrastructure.Data;
 using Entities = MOEServices.Core.Entities;
 
 namespace Task.Services.Data
@@ -30,5 +31,11 @@ namespace Task.Services.Data
 			await _context.SaveChangesAsync();
 			return OperationResult.Succeeded();
 		}
-    }
+
+		public IList<CertificateAttestation> GetAll()
+		{
+			var result = _context.CertificateAttestations.ToList();
+			return result;
+		}
+	}
 }
