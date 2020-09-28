@@ -10,7 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Entities = MOEServices.Core.Entities;
 
-namespace Task.Services.Data
+namespace MOEServices.Services.Data
 {
     public class CertificateAttestationService : ICertificateAttestationService
     {

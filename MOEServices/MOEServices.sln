@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MOEServices.Data", "MOEServ
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MOEServices.Core", "MOEServices.Core\MOEServices.Core.csproj", "{7A53D7D0-FC6D-49EB-BF1D-2B5AAD706870}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BOEServices.Web", "BOEServices.Web\BOEServices.Web.csproj", "{0AD07018-5D26-4DAD-9FA3-CB6EDDED45DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{7A53D7D0-FC6D-49EB-BF1D-2B5AAD706870}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A53D7D0-FC6D-49EB-BF1D-2B5AAD706870}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A53D7D0-FC6D-49EB-BF1D-2B5AAD706870}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AD07018-5D26-4DAD-9FA3-CB6EDDED45DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AD07018-5D26-4DAD-9FA3-CB6EDDED45DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AD07018-5D26-4DAD-9FA3-CB6EDDED45DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AD07018-5D26-4DAD-9FA3-CB6EDDED45DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

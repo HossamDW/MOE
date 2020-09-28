@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
+using Microsoft.AspNetCore.Http;
 using MOEServices.Core.Entities.Base;
 
 namespace MOEServices.Core.Entities
@@ -70,6 +71,15 @@ namespace MOEServices.Core.Entities
 		[Required]
 		[MaxLength(1000)]
 		public string StudyCertificatePath { get; set; }
+
+
+		[Required]
+		[NotMapped]
+		public IFormFile IdCardFile { get; set; }
+
+		[Required]
+		[NotMapped]
+		public IFormFile StudyCertificateFile { get; set; }
 
 	}
 }
