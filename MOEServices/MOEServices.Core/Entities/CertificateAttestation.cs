@@ -59,5 +59,17 @@ namespace MOEServices.Core.Entities
 
 		[Required]
 		public int EducationTypeId { get; set; }
+
+		[Required]
+		public int Status { get; set; }
+
+		[Required]
+		[MaxLength(1000)]
+		public string IdCardPath { get; set; }
+
+		[Required]
+		[MaxLength(1000)]
+		public string StudyCertificatePath { get; set; }
+
 	}
 }
