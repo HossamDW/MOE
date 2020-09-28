@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MOEServices.Core\MOEServices.Core.csproj" />
+    <ProjectReference Include="..\MOEServices.Infrastructure\MOEServices.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
