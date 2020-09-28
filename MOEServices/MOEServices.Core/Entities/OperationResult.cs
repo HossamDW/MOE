@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace MOEServices.Core.Result
+namespace MOEServices.Core.Entities
 {
     public class OperationResult
     {
