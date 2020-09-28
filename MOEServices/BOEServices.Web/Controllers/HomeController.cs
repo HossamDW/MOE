@@ -45,10 +45,10 @@ namespace BOEServices.Web.Controllers
 
 				await _attestationService.CreateAsync(model);
 
-				return RedirectToAction("Done", "Home");
+				return View("Success");
 			}
 
-			return RedirectToAction("Index", "Home");
+			return View("Fail");
 		}
 
 		[HttpGet]
